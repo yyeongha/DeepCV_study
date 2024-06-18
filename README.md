@@ -13,14 +13,14 @@
 * 발표 : 매주 두 명이 컴퓨터 비전 관련 논문을 선정하여 발표한다. 발표자는 논문의 핵심 내용, 실험 결과, 의의 등을 요약하여 설명하고, 발표 자료는 스터디 노션 페이지에 공유한다.
 * 토론 : 발표 후에는 논문에 대한 질문, 토론, 의견 교환 시간을 가진다. 스터디원들은 자유롭게 질문하고, 자신의 생각을 공유하며 논문에 대한 이해를 넓힌다.
 * 자료 공유 : 발표 자료, 논문 링크 등 스터디 관련 자료는 노션 페이지에 체계적으로 정리하여 모든 참여자가 언제든지 참고할 수 있도록 한다.
-![notion](<img width="808" alt="image" src="https://github.com/yyeongha/DeepCV_study/assets/111524126/bcf1810e-14ce-4380-bf15-a0596998b1d8">)
+
+![notion]()
 
 ## 📂 Folder Tree
 
 ## Study Plan
 ### 🚩week 1
-|제목|내용|설명|
+|논문명|주제|PDF|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition|CV|[pdf1](https://arxiv.org/pdf/1406.4729)|
+|SimSiam: Exploring Simple Siamese Representation Learning|CV|[pdf2](https://arxiv.org/pdf/2011.10566)|
