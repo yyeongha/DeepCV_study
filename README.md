@@ -18,9 +18,18 @@
 
 ## 📂 Folder Tree
 
-## Study Plan
+## 📚 Study Plan
 ### 🚩week 1
 |논문명|주제|PDF|
 |------|---|---|
-|Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition|CV|[pdf1](https://arxiv.org/pdf/1406.4729)|
-|SimSiam: Exploring Simple Siamese Representation Learning|CV|[pdf2](https://arxiv.org/pdf/2011.10566)|
+|Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition|CV|[SPPnet](https://arxiv.org/pdf/1406.4729)|
+|SimSiam: Exploring Simple Siamese Representation Learning|CV|[SimSiam](https://arxiv.org/pdf/2011.10566)|
+
+### 🚩week 2
+|논문명|주제|PDF|
+|------|---|---|
+|A ConvNet for the 2020s|CV|[convnet](https://arxiv.org/pdf/2201.03545v2)|
+|HITNet: Hierarchical Iterative Tile Refinement Network for Real-time Stereo Matching|CV|[HITNet](https://arxiv.org/pdf/2007.12140v5)|
+
+### 🚩week 3
+
