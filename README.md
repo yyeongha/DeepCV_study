@@ -14,7 +14,7 @@
 * 토론 : 발표 후에는 논문에 대한 질문, 토론, 의견 교환 시간을 가진다. 스터디원들은 자유롭게 질문하고, 자신의 생각을 공유하며 논문에 대한 이해를 넓힌다.
 * 자료 공유 : 발표 자료, 논문 링크 등 스터디 관련 자료는 노션 페이지에 체계적으로 정리하여 모든 참여자가 언제든지 참고할 수 있도록 한다.
 
-![notion]()
+![notion](https://github.com/yyeongha/DeepCV_study/blob/main/readme_Img/notion.png?raw=true)
 
 ## 📂 Folder Tree
 
@@ -28,8 +28,15 @@
 ### 🚩week 2
 |논문명|주제|PDF|
 |------|---|---|
-|A ConvNet for the 2020s|CV|[convnet](https://arxiv.org/pdf/2201.03545v2)|
+|A ConvNet for the 2020s|CV|[ConvNet](https://arxiv.org/pdf/2201.03545v2)|
 |HITNet: Hierarchical Iterative Tile Refinement Network for Real-time Stereo Matching|CV|[HITNet](https://arxiv.org/pdf/2007.12140v5)|
 
 ### 🚩week 3
+* 스터디 재정비로 인해 쉼
+
+### 🚩week 4
+|논문명|주제|PDF|
+|------|---|---|
+|Visual Instruction Tuning|Multimodal|[LLaVA](https://arxiv.org/pdf/2304.08485)|
+||||
 
