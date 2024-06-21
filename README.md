@@ -7,6 +7,7 @@
 * 지식 공유 및 네트워킹 : 서로의 지식과 경험을 공유하고, 컴퓨터 비전 분야에 대한 열정을 가진 사람들과 교류하며 네트워크를 형성한다.
 * 실제 문제 해결 능력 강화 : 논문에서 얻은 이론적 지식을 바탕으로 실제 문제에 적용해보고, 해결 방안을 모색하는 능력을 키운다.
 
+
 ## 📖 운영방식
 * 시간 : 매주 목요일 저녁 8시
 * 장소 : 디스코드 채널 (온라인)
@@ -16,7 +17,13 @@
 
 ![notion](https://github.com/yyeongha/DeepCV_study/blob/main/readme_Img/notion.png?raw=true)
 
+
 ## 📂 Folder Tree
+📦week
+ ┣ 📂paper_review
+ ┣ 📂paper_code
+ ┗ 📂img
+
 
 ## 📚 Study Plan
 ### 🚩week 1 / 24.05.31
