@@ -76,6 +76,8 @@ SimSiam 모델에서 stop-gradient 유무에 따른 성능 비교 결과는 다�
 
 이는 학생이 문제를 풀 때, 즉각적인 피드백 없이 스스로 답을 찾아가는 과정을 거치면 더 나은 학습 결과를 얻을 수 있음을 보여준다.
 
+![figure2](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/figure2.png?raw=true)
+
 ### Predictor
 
 - predictor가 없는 경우에는 collapsing이 발생한다.
@@ -104,7 +106,7 @@ asymmetric loss에서도 collapsing 현상은 발견되지 않았다. 이는 학
 
 SimSiam의 작동원리를 Expectation Maximization(EM)과 비슷하게 해석할 수 있다:
 
-\[ L(\theta, \eta) = E_{x, T}[\|\mathcal{F}_\theta(T(x)) - \eta_x\|^2_2] \]
+![equation4]()
 
 여기서 $\mathcal{F}$는 네트워크, $T$는 augmentation을 의미한다. 이를 alternating algorithm으로 해결할 수 있으며, $\theta$와 $\eta$를 각각 고정하면서 최적화할 수 있다.
 
