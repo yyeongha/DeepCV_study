@@ -37,7 +37,6 @@
 ### 🚩week 4 / 24.06.21
 |논문명|주제|PDF|
 |------|---|---|
-|CMT: Convolutional Neural Networks Meet Vision Transformers
-|CV|[CMT](https://arxiv.org/pdf/2107.06263)|
+|CMT: Convolutional Neural Networks Meet Vision Transformers|CV|[CMT](https://arxiv.org/pdf/2107.06263)|
 |NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis|CV|[NeRF](https://arxiv.org/pdf/2003.08934)|
 
