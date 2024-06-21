@@ -1,6 +1,6 @@
 # SPP-Net: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition
 
-논문 출처 : [SPP-Net]()
+논문 출처 : [SPP-Net](https://arxiv.org/pdf/1406.4729)
 
 ## 1. 서론
 기존의 딥 컨볼루션 신경망(CNN)은 고정된 입력 이미지 크기(예: 224x224)만을 입력으로 받아들였다. 밑의 figure 1을 보면 알 수 있듯이, 완전 연결 계층(fc layer)이 고정된 크기의 벡터만 입력으로 받기 때문에 CNN은 입력 이미지를 고정된 크기에 맞춰주기 위해 이미지를 잘라내는 크롭(crop)이나 왜곡하는 워프(warp)와 같은 방법을 사용해야 했다. \
