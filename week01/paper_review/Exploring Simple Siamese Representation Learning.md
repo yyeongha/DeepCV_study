@@ -9,7 +9,7 @@ Self-supervised learning에서는 보통 Contrastive Learning 구조를 많이 �
 Self-supervised learning은 학생이 교과서를 보며 스스로 공부하는 것과 비슷하다. 학생이 스스로 공부할 때 여러 문제를 푸는 것처럼, self-supervised learning에서는 모델이 데이터를 여러 방식으로 변형하여 학습한다. 이 과정에서 모든 답을 같은 값으로 내버리는 collapsing 문제를 막기 위해 SimCLR와 MoCo는 학생이 잘못된 답을 피하도록 negative sample을 제공하는 방식이다. \
 반면 BYOL은 이러한 negative sample 없이도 학습할 수 있는 방식을 제안하였다. SimSiam은 이러한 접근 방식을 더욱 단순화하여 negative pair 없이 positive pair 만을 사용하고, stop-gradient 기법을 통해 collapsing 문제를 해결한다.
 
-![figure3]()
+![figure3](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/figure3.png?raw=true)
 
 ## 2. Method
 
@@ -21,17 +21,17 @@ SimSiam의 구조는 다음과 같다:
    - $p_1 = h(f(x_1))$
    - $z_2 = f(x_2)$
 
-![method]()
+![method](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/method.png?raw=true)
 
 ### Loss
 
 SimSiam은 두 벡터 $p_1$과 $z_2$의 negative cosine similarity를 최소화하는 loss를 사용한다:
 
-![equation2]()
+![equation2](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/equation2.png?raw=true)
 
 이러한 비교를 두 벡터의 순서를 바꾸어 한 번 더 수행하여 symmetric loss를 사용한다:
 
-![equation]()
+![equation](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/equation.png?raw=true)
 
 이 방식은 두 명의 학생이 서로의 답을 교차 검사하는 것과 비슷하다. 한 학생이 문제를 풀고 다른 학생이 그 답을 검토한 후, 다시 원래 학생이 검토한 답을 평가하는 방식이다. 이를 통해 모델이 더 정확한 답을 찾도록 돕는다.
 
@@ -39,7 +39,7 @@ SimSiam은 두 벡터 $p_1$과 $z_2$의 negative cosine similarity를 최소화�
 
 SimSiam의 핵심적인 구조는 여기에 stop-gradient를 추가하는 것이다:
 
-![equation]()
+![equation](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/equation.png?raw=true)
 
 이를 통해 $x_2$에서 $z_2$로부터는 gradient를 전달받지 않고, $p_2$를 통해 gradient를 전달받게 된다. 이는 학생이 문제를 푼 후 답을 바로 고치지 않고, 잠시 멈추고 다른 방식으로 검토하도록 하는 것과 유사하다. 이렇게 하면 모델이 쉽게 잘못된 방향으로 치우치지 않고 학습할 수 있다.
 
@@ -111,7 +111,7 @@ SimSiam의 작동원리를 Expectation Maximization(EM)과 비슷하게 해석�
 이 과정은 학생이 여러 번의 검토와 수정을 통해 최적의 답을 찾아가는 과정과 유사하다. 먼저 $\theta$를 고정한 상태에서 $\eta$를 최적화하고, 이후 $\eta$를 고정한 상태에서 $\theta$를 최적화하는 방식이다.
 
 ## 5. Comparison
-![table4]()
+![table4](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/table4.png?raw=true)
 
 SimSiam은 SimCLR, MoCo, BYOL, SwAV와 비교하여 경쟁력 있는 결과를 보이며, 특히 100-epoch pre-training에서 가장 높은 accuracy를 달성했다. Transfer Learning에서도 SimSiam의 representation은 다른 태스크에서도 높은 성능을 보였다.
 
