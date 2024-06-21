@@ -31,7 +31,7 @@ SimSiam은 두 벡터 $p_1$과 $z_2$의 negative cosine similarity를 최소화�
 
 이러한 비교를 두 벡터의 순서를 바꾸어 한 번 더 수행하여 symmetric loss를 사용한다:
 
-![equation](https://github.com/yyeongha/DeepCV_study/blob/main/week01/img/simsiam/equation.png?raw=true)
+
 
 이 방식은 두 명의 학생이 서로의 답을 교차 검사하는 것과 비슷하다. 한 학생이 문제를 풀고 다른 학생이 그 답을 검토한 후, 다시 원래 학생이 검토한 답을 평가하는 방식이다. 이를 통해 모델이 더 정확한 답을 찾도록 돕는다.
 
