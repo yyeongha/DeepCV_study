@@ -19,10 +19,10 @@
 
 
 ## 📂 Folder Tree
-📦week
- ┣ 📂paper_review
- ┣ 📂paper_code
- ┗ 📂img
+📦week \
+ ┣ 📂paper_review \
+ ┣ 📂paper_code \
+ ┗ 📂img 
 
 
 ## 📚 Study Plan
