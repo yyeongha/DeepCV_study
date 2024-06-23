@@ -1,6 +1,7 @@
 # A ConvNet for the 2020s
 
 내 블로그에 썼었던 리뷰를 그대로 가져옴.
+
 내 블로그 : [블로그리뷰](https://yyeongha.github.io/posts/ConvNet/)
 
 논문 출처 : [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545v2)
