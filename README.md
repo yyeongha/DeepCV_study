@@ -47,3 +47,11 @@
 |CMT: Convolutional Neural Networks Meet Vision Transformers|CV|[CMT](https://arxiv.org/pdf/2107.06263)|
 |NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis|CV|[NeRF](https://arxiv.org/pdf/2003.08934)|
 
+### 🚩week 5 / 24.07.02
+|논문명|주제|PDF|
+|------|---|---|
+|Deep Residual Learning for Image Recognition
+|CV|[ResNet](https://arxiv.org/pdf/1512.03385)|
+|LLaMA: Open and Efficient Foundation Language Models|CV|[LLaMA](https://arxiv.org/pdf/2302.13971)|
+
+
